@@ -1,0 +1,150 @@
+.header {
+    background-image: linear-gradient(200deg, #5c3075, #cc64a2);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+.header .logo {
+    width: 55px;
+}
+
+.header img {
+    width: 100%;
+    border-radius: 50%;
+    margin: 100px;
+}
+.header #nav {
+    display: flex;  
+    margin: 20px;
+}
+.header #nav li {
+    list-style-type: none;
+    color: #fff;
+}
+.header #nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header #nav button {
+    color: #fff;
+    background: none;
+    margin-left: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+.titlePage {
+    margin: 100px 0 50px 50px;
+}
+
+
+
+
+.footer {
+    position: relative;
+    margin-top: 100px;
+    background-color: rgb(91, 86, 86);
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+.footer .logo {
+    width: 230px;
+    margin: 50px;
+}
+
+.footer .logo .img {
+    width: 70px;
+}
+
+.footer .logo .img img {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.footer .contact,
+.footer .instruct,
+.footer .support,
+.footer .logo {
+    margin-top: 50px;
+}
+
+.footer ul li{
+    list-style-type: none;
+    display: flex;
+    line-height: 25px;
+}
+
+.footer ul li i {
+    margin-right: 20px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer h3 {
+    color: #fff;
+}
+
+.footer .dividing1,
+.footer .dividing2,
+.footer .dividing3 {
+    position: absolute;
+    width: 1px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.footer .dividing1 {
+    top: 60px;
+    left: 310px;
+}
+.footer .dividing2 {
+    top: 60px;
+    left: 625px
+}
+.footer .dividing3 {
+    top: 60px;
+    left: 1050px;
+}
+
+
+
+
+
+.footer__bottom {
+    background-color: #f5f5f5;
+    padding: 6px 0;
+}
+.footer__text {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #737373;
+}
+
+
+
+

@@ -1,0 +1,97 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(200deg, #5c3075, #cc64a2);
+    min-height: 100vh;
+    line-height: 20px;
+    font-family: monospace;
+}
+
+.container {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container .left {
+    margin: 50px 10px 50px 50px;
+}  
+
+.container .information p {
+    margin-bottom: 20px;
+}   
+
+.contact {
+    
+}
+
+.contact .title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.contact .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .form-group p{
+    margin-left: 20px;
+}
+
+.contact .form-group input{
+    border-radius: 30px;
+    border: 1px solid #b3b3b3;
+    outline: none;
+    height: 50px;
+    padding: 20px;
+}
+
+.contact .form-group .height{
+    height: 100px;
+}
+
+.contact .form-group .form-message {
+    text-align: left;
+    margin-left: 20px;
+}
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+  
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.contact .form-submit {
+    outline: none;
+    background-color: #b192ff;
+    padding: 20px 40px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 60px;
+    cursor: pointer;
+    
+}
+
+.contact .form-submit:hover {
+    opacity: .6;
+    color: black;
+}
+
+.container .map {
+    margin: 50px 0 0 30px;
+    width: 100%;
+}
+
+.container .map img {
+    width: 100%;
+}   

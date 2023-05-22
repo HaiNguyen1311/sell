@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="../Global/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="../img/logoweb.png" alt="" class="iconlogo">
+        </div>
+        <ul id="nav">
+            <li><a href="../Home/home.html">Trang chủ</a></li>
+            <li><a href="../Cart/cart.html">Giỏ hàng</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <button onclick="confirmLogout()">Đăng xuất</button>
+        </ul>
+    </div> 
+    <h1 class="titlePage">CONTACT</h1>
+    
+    <div class="container">
+        <div class="left">
+            <div class="information">
+                <p>Địa chỉ: Chicago, US</p>
+                <p>Sđt: +00 151515</p>
+                <p>Mail: mail@mail.com</p>
+            </div>
+            <div class="contact">
+                <p class="title">Liên hệ với chúng tôi</p>
+                <form class="login" id="form-1">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <p>Họ và tên</p>
+                            <input id="YourName" name="yourName" type="text" placeholder="Your Name" class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <p>Email</p>
+                            <input id="YourEmail" name="yourEmail" type="text" placeholder="Enter Email" class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <p>Điện thoại</p>
+                            <input id="Phone" name="Phone" type="text" placeholder="Phone" class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <p>Nội dung</p>
+                            <input id="YourMessage" name="YourMessage" type="text" class="form-control height">
+                            <span class="form-message"></span>
+                        </div>
+                    </div>
+                    <button class="form-submit">Gửi liên hệ</button>
+                </form>
+            </div>
+        </div>
+        <div class="map">
+            <img src="../img/map.jpg" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="dividing1"></div>
+        <div class="dividing2"></div>
+        <div class="dividing3"></div>
+        <div class="logo">
+            <div class="img">
+                <img src="../img/logoweb.png" alt="">
+            </div>
+            <p>Cửa hàng Selling swimwear là một website cung cấp đồ bơi phụ kiện chất lượng, giá rẻ cho người dùng</p>
+            
+        </div>
+        <div class="contact">
+            <h3>Bạn cần hỗ trợ</h3>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+00 151515</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Chicago, US</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>mail@mail.com</p>
+                </li>
+            </ul>      
+        </div>
+        <div class="instruct">
+            <h3>Hướng dẫn mua hàng</h3>
+            <ul>
+                <li><p>Trang chủ</p></li>
+                <li><p>Giới thiệu</p></li>
+                <li><p>Danh mục</p></li>
+                <li><p>Tin tức</p></li>
+                <li><p>Liên hệ</p></li>
+                <li><p>Hướng dẫn sử dụng</p></li>
+            </ul>
+        </div>
+        <div class="support">
+            <h3>Hỗ trợ khách hàng</h3>
+            <ul>
+                <li><p>Trang chủ</p></li>
+                <li><p>Giới thiệu</p></li>
+                <li><p>Danh mục</p></li>
+                <li><p>Tin tức</p></li>
+                <li><p>Liên hệ</p></li>
+                <li><p>Hướng dẫn sử dụng</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="grid wide">
+            <p class="footer__text">© 2023 - Bản quyền thuộc về Henry</p>
+        </div>
+    </div>
+
+
+
+    <script src="../Global/form.js"></script>
+    <script src="./contact.js"></script>
+    <script src="../Global/logout.js"></script>
+</body>
+</html>

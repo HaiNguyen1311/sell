@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="../Global/global.css">
+    <title>Selling swimwear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="../img/logoweb.png" alt="" class="iconlogo">
+        </div>
+        <ul id="nav">
+            <li><a href="../Home/home.html">Trang chủ</a></li>
+            <li><a href="#">Giỏ hàng</a></li>
+            <li><a href="../Contact/contact.html">Liên hệ</a></li>
+            <button onclick="confirmLogout()">Đăng xuất</button>
+        </ul>
+    </div> 
+
+    <h1 class="titlePage">CART</h1>
+
+    <div class="container">
+        <div class="top-content">
+            <a href="../Home/home.html" class="buymore">Mua thêm sản phẩm khác</a>
+            <span>Giỏ hàng của bạn</span>
+        </div>
+
+        <div class="cart">
+            <div id="listCart"></div>
+            <div class="totalPay">
+                <h2>Tổng tiền:</h2>
+                <div class="totalList"></div>
+            </div>
+        </div>
+        <div class="information">
+            <form action="" method="POST" class="form" id="form-1">
+                <h3 class="heading">Thông tin khách hàng</h3>
+            
+                <div class="spacer"></div>
+            
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Họ và tên</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="Name" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+            
+                <div class="form-group">
+                    <div class="gender">                 
+                        <div class="male">
+                            <input name="gender" type="radio" class="form-control " value="male">
+                            <div class="gender">Anh</div>
+                        </div>
+                        <div class="female">
+                            <input name="gender" type="radio" class="form-control" value="female">
+                            <div class="gender">Chị</div>
+                        </div>
+                    </div>
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="address">
+                    <div class="form-group">
+                        <label for="province" class="form-label">Tỉnh/ TP</label>
+                        <select id="province" name="province" class="form-control">
+                            <option value="">-- Chọn Tỉnh/TP --</option>
+                            <option value="HCM">Hồ Chí Minh</option>
+                            <option value="HaNoi">Hà Nội</option>
+                            <option value="Đà Nẵng">Đà Nẵng</option>
+                        </select>
+                        <span class="form-message"></span>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="district" class="form-label">Quận Huyện</label>
+                        <select id="district" name="district" class="form-control">
+                            <option value="">-- Chọn Quận/ Huyện --</option>
+                            <option value="Q1">Quận 1</option>
+                            <option value="Q2">Quận 2</option>
+                            <option value="Q3">Quận 3</option>
+                            <option value="QTB">Quận Tân Bình</option>
+                        </select>
+                        <span class="form-message"></span>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="wards" class="form-label">Phường Xã</label>                 
+                        <select id="wards" name="wards" class="form-control">
+                            <option value="">-- Chọn Phường/ Xã --</option>
+                            <option value="P1">Phường 1</option>
+                            <option value="P2">Phường 2</option>
+                            <option value="P3">Phường 3</option>
+                        </select>
+                        <span class="form-message"></span>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="accommodation" class="form-label">Địa chỉ</label>
+                        <input id="accommodation" name="accommodation" type="text" placeholder="Nhập địa chỉ" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    <label for="phone" class="form-label">Số điện thoại</label>
+                    <input id="phone" name="phone" type="text" placeholder="Nhập số điện thoại" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                         
+                <button class="form-submit">Xác nhận đặt hàng</button>
+            </form>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="dividing1"></div>
+        <div class="dividing2"></div>
+        <div class="dividing3"></div>
+        <div class="logo">
+            <div class="img">
+                <img src="../img/logoweb.png" alt="">
+            </div>
+            <p>Cửa hàng Selling swimwear là một website cung cấp đồ bơi phụ kiện chất lượng, giá rẻ cho người dùng</p>
+            
+        </div>
+        <div class="contact">
+            <h3>Bạn cần hỗ trợ</h3>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+00 151515</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Chicago, US</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>mail@mail.com</p>
+                </li>
+            </ul>       
+        </div>
+        <div class="instruct">
+            <h3>Hướng dẫn mua hàng</h3>
+            <ul>
+                <li><p>Trang chủ</p></li>
+                <li><p>Giới thiệu</p></li>
+                <li><p>Danh mục</p></li>
+                <li><p>Tin tức</p></li>
+                <li><p>Liên hệ</p></li>
+                <li><p>Hướng dẫn sử dụng</p></li>
+            </ul>
+        </div>
+        <div class="support">
+            <h3>Hỗ trợ khách hàng</h3>
+            <ul>
+                <li><p>Trang chủ</p></li>
+                <li><p>Giới thiệu</p></li>
+                <li><p>Danh mục</p></li>
+                <li><p>Tin tức</p></li>
+                <li><p>Liên hệ</p></li>
+                <li><p>Hướng dẫn sử dụng</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="grid wide">
+            <p class="footer__text">© 2023 - Bản quyền thuộc về Henry</p>
+        </div>
+    </div>
+    <script src="../Global/logout.js"></script>
+    <script src="../Global/form.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

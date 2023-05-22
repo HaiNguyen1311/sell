@@ -1,0 +1,148 @@
+{
+  "listProduct": [
+    {
+      "id": 1,
+      "img":"../img/kinhboi-den.jfif",
+      "title":"Kính bơi màu đen",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"12.500",
+      "nature": {
+          "color": ["black"],
+          "size": ["S", "M", "L"],
+          "type": "goggles"
+      }
+    },
+    {
+      "id": 2,
+      "img":"../img/kinhboi-do.jfif",
+      "title":"Kính bơi màu đỏ",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"10.000",
+      "nature": {
+          "color": ["red"],
+          "size": ["S", "M", "L"],
+          "type": "goggles"
+      }
+    },
+    {
+      "id": 3,
+      "img":"../img/kinhboi-hong.jfif",
+      "title":"Kính bơi màu hồng",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"12.000",
+      "nature": {
+          "color": ["Pink"],
+          "size": ["S", "M", "L"],
+          "type": "goggles"
+      }
+    },
+    {
+      "id": 4,
+      "img":"../img/kinhboi-xanh.jfif",
+      "title":"Kính bơi xanh",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"9.500",
+      "nature": {
+          "color": ["blue"],
+          "size": ["S", "M", "L"],
+          "type": "goggles"
+      }
+    },
+    {
+      "id": 5,
+      "img":"../img/nonboi-den.jfif",
+      "title":"Nón bơi màu đen",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"11.500",
+      "nature": {
+          "color": ["black"],
+          "size": ["S", "M", "L"],
+          "type": "hat"
+      }
+    },
+    {
+      "id": 6,
+      "img":"../img/nonboi-hong.jfif",
+      "title":"Nón bơi màu hồng",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"13.000",
+      "nature": {
+          "color": ["Pink"],
+          "size": ["S", "M", "L"],
+          "type": "hat"
+      }
+    },
+    {
+      "id": 7,
+      "img":"../img/nonboi-trang.jfif",
+      "title":"Nón bơi màu trắng",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"12.500",
+      "nature": {
+          "color": ["white"],
+          "size": ["S", "M", "L"],
+          "type": "hat"
+      }
+    },
+    {
+      "id": 8,
+      "img":"../img/nonboi-xanh.jfif",
+      "title":"Nón bơi màu xanh",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"10.000",
+      "nature": {
+          "color": ["blue"],
+          "size": ["S", "M", "L"],
+          "type": "hat"
+      }
+    },
+    {
+      "id": 9,
+      "img":"../img/quanboi-cam.jfif",
+      "title":"Quần bơi màu cam",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"12.000",
+      "nature": {
+          "color": ["orange"],
+          "size": ["S", "M", "L"],
+          "type": "swimmingTrunks"
+      }
+    },
+    {
+      "id": 10,
+      "img":"../img/quanboi-den.jfif",
+      "title":"Quần bơi màu đen",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"9.500",
+      "nature": {
+          "color": ["black", "red", "Pink", "blue", "white", "Yellow"],
+          "size": ["S", "M", "L"],
+          "type": "swimmingTrunks"
+      }
+    },
+    {
+      "id": 11,
+      "img":"../img/quanboi-do.jfif",
+      "title":"Quần bơi màu đỏ",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"11.500",
+      "nature": {
+          "color": ["red"],
+          "size": ["S", "M", "L"],
+          "type": "swimmingTrunks"
+      }
+    },
+    {
+      "id": 12,
+      "img":"../img/quanboi-xanh.jfif",
+      "title":"Quần bơi màu xanh",
+      "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus",
+      "price":"13.000",
+      "nature": {
+          "color": ["blue"],
+          "size": ["S", "M", "L"],
+          "type": "swimmingTrunks"
+      }
+    }
+  ]
+} 

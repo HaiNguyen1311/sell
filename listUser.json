@@ -1,0 +1,16 @@
+{
+  "listUser": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "Admin",
+      "password": "admin",
+      "email": "Admin@gmail.com"
+    }
+  ]
+}
